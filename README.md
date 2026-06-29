@@ -6,13 +6,12 @@
 The system utilizes **Retrieval-Augmented Generation (RAG)** over a local vector database (ChromaDB) containing Indian statutory laws, combined with live web-based legal search to ground its analysis in factual precedents and current statutes.
 
 ## Tech Stack
-- **Core Languages:** Python 3.11+
-- **AI & Orchestration:** LangChain, LangGraph, OpenAI (GPT-4o-mini), Tavily API
-- **Vector Database (RAG):** ChromaDB, OpenAI Embeddings (text-embedding-3-small)
+- **Language & Interfaces:** Python, FastAPI (Backend API), Streamlit (Frontend UI)
+- **AI & Large Language Models (LLMs):** OpenAI (GPT-4o-mini), OpenAI Embeddings
+- **Orchestration & Frameworks:** LangChain, LangGraph, CrewAI (optional alternative orchestration)
+- **Database (Vector DB):** ChromaDB
 - **Document Processing:** PyPDFLoader, pdfplumber
-- **Backend Infrastructure:** FastAPI, Uvicorn, Pydantic
-- **Web Scraping:** Requests, BeautifulSoup4
-- **Frontend UI:** Streamlit
+- **Web Scraping:** Requests, BeautifulSoup4, Tavily API
 
 ## Multi-Agent Architecture
 
